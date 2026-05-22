@@ -3,4 +3,5 @@ services:
     image: vineet2804/myapp:latest
 
     container_name: my-python-app
-
+    ports:
+      - "8000:8000"
