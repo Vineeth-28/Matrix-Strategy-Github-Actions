@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: checkout code
-        uses: action/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Start services
         run: docker compose up -d --build
