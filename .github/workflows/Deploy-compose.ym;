@@ -1,4 +1,0 @@
-services:
-   web:
-    image : ${DOCKER_HUB_USER}/my-app:latest
-   

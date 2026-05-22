@@ -1,0 +1,6 @@
+services:
+  web:
+    image: vineet2804/myapp:latest
+
+    container_name: my-python-app
+
